@@ -1,0 +1,27 @@
+<head>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="/stylesheets/login.css" />
+</head>
+
+<body>
+    <form class="form-signin" action="/user" method="POST">
+        <h1 class="h3 mb-3 font-weight-normal" style="margin-left: 100px;">Register</h1>
+        <label for="inputEmail">Email address: </label>
+        <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
+        <label for="fName">Firstname: </label>
+        <input type="text" id="fName" name="fName" class="form-control" placeholder="Firstname" required autofocus>
+        <label for="lName">Lastname :</label>
+        <input type="text" id="lName" name="lName" class="form-control" placeholder="Lastname" required autofocus>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+        <label for="cPass">Confirm Password: </label>
+        <input type="password" id="cPass" name="cPass" class="form-control" placeholder="Password" required autofocus>
+        <br>
+        <button class="btn btn-lg btn-success btn-block" type="submit">Register</button>
+        <p class="mt-5 mb-3 text-muted">Already have an account?</p>
+        <button class="btn btn-lg btn-gray btn-block" style="background-color: #abafb3;" type="button" onclick="">Login</button>
+    </form>
+</body>
+    <script src="/javascripts/jquery.js"></script>
+    <script src="/javascripts/popper.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>

@@ -1,0 +1,9 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+button#less {
+  background-color: rgb(18, 94, 161);
+  font-weight: 900;
+}
